@@ -6,8 +6,12 @@
 
 body {
   min-height: 100vh;
-  background-color: hsl(240, 43%, 60%);
-  font-family: 'Kumbh Sans', sans-serif;
+  background-image: linear-gradient(
+    to bottom,
+    hsl(273, 75%, 66%),
+    hsl(240, 73%, 65%)
+  );
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 // JavaScript Switches
@@ -43,8 +47,7 @@ body {
   margin: 0.8rem 0;
 }
 
-// 
-
+//
 
 main.container {
   background-image: url(./images/bg-pattern-desktop.svg);
@@ -59,7 +62,7 @@ main.container {
   position: relative;
   top: 50%;
   left: 50%;
-  translate: -50% 20%;
+  translate: -50% 30%;
   border-radius: 1rem;
 
   & .image {
